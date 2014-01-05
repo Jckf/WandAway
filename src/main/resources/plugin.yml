@@ -1,0 +1,10 @@
+name: ${project.name}
+version: ${project.version}
+main: ${main.class}
+
+depend: [WorldEdit]
+
+permissions:
+  wandaway.auto:
+    description: Toggles WorldEdit's edit wand on connect.
+    default: true
